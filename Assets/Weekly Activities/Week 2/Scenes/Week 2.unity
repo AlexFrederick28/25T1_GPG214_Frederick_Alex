@@ -715,6 +715,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1717454892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1717454894}
+  - component: {fileID: 1717454895}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1717454894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717454892}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 398, y: 224, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1717454895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717454892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b3622217b91124880236d4466228a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stats:
+    playerName: Jeff
+    playerHealth: 100
+    playerWeapon: Scythe
+    playerPositionArray:
+    - 0
+    - 0
+    - 0
+  playerJsonFileName: Player.json
+  folderPath: C:/Users/User/Desktop/Uni 2024 - 2025/25T1_Uni/25T1_GPG214_Frederick_Alex/Assets/StreamingAssets
 --- !u!1 &1778173152
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,3 +871,4 @@ SceneRoots:
   - {fileID: 1591585997}
   - {fileID: 4143249}
   - {fileID: 1356371643}
+  - {fileID: 1717454894}
